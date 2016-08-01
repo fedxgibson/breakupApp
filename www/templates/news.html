@@ -1,0 +1,26 @@
+<ion-view view-title="News">
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <div class="list card" ng-repeat="news in newsList">
+          <div class="item item-avatar">
+            <img ng-src="{{news.userAvatar}}">
+            <h2>{{news.userName}}</h2>
+            <p>{{news.date}}</p>
+          </div>
+
+          <div class="item item-body">
+            <img class="news-image-list pull-left" ng-src="{{news.newsImage}}">
+            <p>
+              {{news.newsTitle}}
+            </p>
+            <p>
+              <a href="#" class="subdued">1 L</a>
+              <a href="#" class="subdued">5 W</a>
+            </p>
+          </div>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

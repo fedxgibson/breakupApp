@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+
+.news-image-list {
+  width: 30%;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+.pull-left {
+  float: left;
+}
