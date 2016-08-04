@@ -11,6 +11,10 @@
 }
 
 .story-image {
-  height: 85%;
+  height: 75%;
   text-align: center;
+}
+
+.betting-buttons{
+  width:50%;
 }
