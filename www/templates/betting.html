@@ -1,0 +1,20 @@
+<ion-view view-title="L or W?">
+  <ion-content scroll="false">
+    <ion-slides options="options" slider="data.slider">
+      <ion-slide-page ng-repeat="story in stories">
+        <div class="story-image">
+          <img ng-src="{{story.image}}">
+        </div>
+        <div class="range">
+          <p>L {{story.losses}}</p>
+          <input type="range" ng-disabled="true" ng-model="story.score" min=0 max=100 value=0>
+          <p>W {{story.wins}}</p>
+        </div>
+        <div class="button-bar">
+          <a class="button" ng-click="loss(story)">Loss</a>
+          <a class="button" ng-click="win(story)">Win</a>
+        </div>
+      </ion-slide-page>
+    </ion-slides>
+  </ion-content>
+</ion-view>

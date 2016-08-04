@@ -9,3 +9,8 @@
 .pull-left {
   float: left;
 }
+
+.story-image {
+  height: 85%;
+  text-align: center;
+}

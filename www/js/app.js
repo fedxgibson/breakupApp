@@ -46,7 +46,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: '/betting',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/betting.html',
+          controller: 'BettingController'
         }
       }
     })

@@ -14,7 +14,7 @@ angular.module('starter.controllers')
         userName: 'Foo Fighter',
         publishDate: 'December 09, 1890',
         newsTitle: 'Jenny new dog',
-        newsImage: 'https://pbs.twimg.com/profile_images/452295063952195584/MlCsIZhV.jpeg'
+        newsImage: 'http://media4.s-nbcnews.com/j/newscms/2015_41/1252321/151007-jennifer-aniston-mbm_f8d9da133d1c610e6f74da6378714832.nbcnews-fp-1200-800.jpg'
       }
     ];
   });
